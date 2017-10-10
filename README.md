@@ -36,8 +36,8 @@ This question uses this table (from [the lecture notes](https://github.com/lse-s
     | Bob Smith      | 1 Houghton Street    | _Star Wars_, _Inception_ |  Dr.   |  Scifi, Scifi |
     | Pry Ministair  | 10 Downing St     |  _Brexit the Movie_      |  Lady  | Tragedy |
     | Joe Bloggs     | 8 Myhatt St.      |  _Fast and Furious 6_, _Fast and Furious 7_     | Mr. | Action, Action |
-
-### B.  Reshaping data (30 points)
+  
+### B.  Reshaping data (30 points)
 
 For this exercise, we will use the **nycflights13** R package, whose tables have been output in `.csv` form [here](nycflights13/).  You may do the following in either R or Python.  Note that this example is developed extensively in [_R for Data Science_](http://r4ds.had.co.nz/relational-data.html).
 
