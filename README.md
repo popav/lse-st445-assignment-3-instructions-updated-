@@ -51,6 +51,32 @@ For this exercise, we will use the **nycflights13** R package, whose tables have
 
 3.  For every airline that had flights in the `flights` data compute the average age of the planes it flew from the entire dataset.  Age here will be defined as 2013 minus the `year` variable from the `planes` data.  Hint: This involves a join operation on `tailnum`, but also a grouped mean to compute the age (and subtracting 2013, which you can do before or after the computation of the mean).
 
+You may find the following references useful:
+* Python:
+    * read the csv to python: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html
+    * get dataframe size: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.size.html
+    * set index in dataframe: https://pandas.pydata.org/pandas-docs/stable/indexing.html#set-an-index
+    * remove duplicate rows: https://pandas.pydata.org/pandas-docs/stable/indexing.html#duplicate-data
+    * query: https://pandas.pydata.org/pandas-docs/stable/indexing.html#the-query-method-experimental
+    * select some columns or rows by conditions / indexes: 
+        * https://pandas.pydata.org/pandas-docs/stable/indexing.html#selection-by-position
+        * https://pandas.pydata.org/pandas-docs/stable/indexing.html#different-choices-for-indexing
+        * https://pandas.pydata.org/pandas-docs/stable/indexing.html#selection-by-label
+        * https://pandas.pydata.org/pandas-docs/stable/indexing.html#boolean-indexing
+        * https://pandas.pydata.org/pandas-docs/stable/indexing.html#the-where-method-and-masking
+        * https://pandas.pydata.org/pandas-docs/stable/indexing.html#selection-by-callable
+        * https://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-with-isin
+        * https://pandas.pydata.org/pandas-docs/stable/indexing.html#the-select-method
+    * add new data: https://pandas.pydata.org/pandas-docs/stable/indexing.html#setting-with-enlargement
+    * get and set data: https://pandas.pydata.org/pandas-docs/stable/indexing.html#fast-scalar-value-getting-and-setting
+    * group data: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html
+    * merge: https://pandas.pydata.org/pandas-docs/stable/merging.html
+
+* R:
+
+    * chapter 13 about the relational database in R for Data Science: 
+    http://r4ds.had.co.nz/relational-data.html#filtering-joins
+
 ### C.  Working with SQL.  (30 points)
 
 1.  Create a relational dataset in SQLite using the `.csv` data found [here](nycflights13/).  Name each table so that it matches the base filenames of the input data.  You can use DB Browser for this, but describe how you did it.   If you use SQL commands, include that.
