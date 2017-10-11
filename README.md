@@ -71,11 +71,13 @@ You may find the following references useful:
     * get and set data: https://pandas.pydata.org/pandas-docs/stable/indexing.html#fast-scalar-value-getting-and-setting
     * group data: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html
     * merge: https://pandas.pydata.org/pandas-docs/stable/merging.html
-
+    * previous python example from week 2 assignment: https://github.com/lse-st445/assignment-2-instructions/blob/master/assignment-2-complex-example-python.ipynb
 * R:
 
     * chapter 13 about the relational database in R for Data Science: 
     http://r4ds.had.co.nz/relational-data.html#filtering-joins
+    * dataframe tutorial from week 2 assignment: https://github.com/lse-st445/assignment-2-instructions/blob/master/how-to-manipulate-dataframe.ipynb
+    * previous R example from week 2 assignment: https://github.com/lse-st445/assignment-2-instructions/blob/master/assignment-2-complex-example-r.ipynb
 
 ### C.  Working with SQL.  (30 points)
 
