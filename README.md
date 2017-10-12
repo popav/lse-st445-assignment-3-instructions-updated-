@@ -2,7 +2,7 @@
 
 ## Week 3 Assignment, MT 2017
 ---
-**Note: This assignment will be assessed.  Deadline: 5pm, 25 October 2017**
+**Note: This assignment will be assessed.  Deadline: 5pm, 18 October 2017**
 
 ### A.  Normalizing data (40 points).
 
@@ -36,7 +36,7 @@ This question uses this table (from [the lecture notes](https://github.com/lse-s
     | Bob Smith      | 1 Houghton Street    | _Star Wars_, _Inception_ |  Dr.   |  Scifi, Scifi |
     | Pry Ministair  | 10 Downing St     |  _Brexit the Movie_      |  Lady  | Tragedy |
     | Joe Bloggs     | 8 Myhatt St.      |  _Fast and Furious 6_, _Fast and Furious 7_     | Mr. | Action, Action |
-  
+
 ### B.  Reshaping data (30 points)
 
 For this exercise, we will use the **nycflights13** R package, whose tables have been output in `.csv` form [here](nycflights13/).  You may do the following in either R or Python.  Note that this example is developed extensively in [_R for Data Science_](http://r4ds.had.co.nz/relational-data.html).
@@ -59,7 +59,7 @@ You may find the following references useful:
         * set index in dataframe: https://pandas.pydata.org/pandas-docs/stable/indexing.html#set-an-index
         * remove duplicate rows: https://pandas.pydata.org/pandas-docs/stable/indexing.html#duplicate-data
         * query: https://pandas.pydata.org/pandas-docs/stable/indexing.html#the-query-method-experimental
-        * select some columns or rows by conditions / indexes: 
+        * select some columns or rows by conditions / indexes:
             * https://pandas.pydata.org/pandas-docs/stable/indexing.html#selection-by-position
             * https://pandas.pydata.org/pandas-docs/stable/indexing.html#different-choices-for-indexing
             * https://pandas.pydata.org/pandas-docs/stable/indexing.html#selection-by-label
@@ -74,7 +74,7 @@ You may find the following references useful:
         * merge: https://pandas.pydata.org/pandas-docs/stable/merging.html
     * previous python example from week 2 assignment: https://github.com/lse-st445/assignment-2-instructions/blob/master/assignment-2-complex-example-python.ipynb
 * R:
-    * chapter 13 of R for Data Science: 
+    * chapter 13 of R for Data Science:
     http://r4ds.had.co.nz/relational-data.html#filtering-joins
     * dataframe tutorial from week 2 assignment: https://github.com/lse-st445/assignment-2-instructions/blob/master/how-to-manipulate-dataframe.ipynb
     * previous R example from week 2 assignment: https://github.com/lse-st445/assignment-2-instructions/blob/master/assignment-2-complex-example-r.ipynb
