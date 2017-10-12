@@ -6,6 +6,8 @@
 
 Please complete your assignment using the [exercise3.ipynb](exercise3.ipynb)
 
+---
+
 You may find the following references useful for part b of the assignment:
 * Python:
     * documents about different python functions:
